@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Конвертер</title>
+    <style>span {
+  color: green;
+}
+
+</style>
+
+    <script src="index.42f13b8c.js"></script>
+
+</head>
+<body>
+<h2 style="color: green">Конвертер</h2>
+
+<p>Введите значение в поле ниже для конвертации:</p>
+
+<p>
+    <select id="SelectConvertFrom" onchange="Convert(document.getElementById('ConvertFrom').value)">
+        <option value="Kilograms">Килограмм</option>
+        <option value="Grams">Грамм</option>
+        <option value="Pounds">Фунт</option>
+        <option value="Ounces">Унция</option>
+        <option value="Stones">Камень</option>
+    </select><br>
+
+
+    <input id="ConvertFrom" type="number" oninput="Convert(this.value)" onchange="Convert(this.value)"><br><br>
+</p>
+
+
+<p>
+    Перевод в
+    <select id="SelectConvertTo" onchange="Convert(document.getElementById('ConvertFrom').value)">
+        <option value="Kilograms">Килограмм</option>
+        <option value="Grams">Грамм</option>
+        <option value="Pounds">Фунт</option>
+        <option value="Ounces">Унция</option>
+        <option value="Stones">Камень</option>
+    </select>:<br>
+    <span id="ConvertTo"></span></p>
+<script src="Converter.7d624d00.js"></script></body>
+</html>
