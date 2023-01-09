@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/mipy7/Converter/issues"
   },
-  "homepage": "https://github.com/mipy7/Converter#readme"
+  "homepage": "https://github.com/mipy7/Converter#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
 }
